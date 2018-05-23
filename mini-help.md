@@ -1,21 +1,14 @@
-Inside that directory, you can run several commands:
+## Inside that directory, you can run several commands:
 
-  yarn start
+  ### `yarn start`
     Starts the development server.
 
-  yarn build
+  ### `yarn build`
     Bundles the app into static files for production.
 
-  yarn test
+  ### `yarn test`
     Starts the test runner.
 
-  yarn eject
+  ### `yarn eject`
     Removes this tool and copies build dependencies, configuration files
     and scripts into the app directory. If you do this, you can’t go back!
-
-We suggest that you begin by typing:
-
-  cd mandriv
-  yarn start
-
-Happy hacking!
