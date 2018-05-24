@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './App.css';
 
+import Description from './Description';
 import Header from './Header';
 import logo from './logo.svg';
 
@@ -13,9 +14,9 @@ class App extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <Header name="Viktor"/>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <div className="App-intro">
+          <Description countBy={1}/>
+        </div>
       </div>
     );
   }
